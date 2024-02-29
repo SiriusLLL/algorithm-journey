@@ -19,11 +19,11 @@ public class Code06_LevelorderSerializeAndDeserialize {
 	// 按层序列化
 	public class Codec {
 
-		public static int MAXN = 10001;
+		public  int MAXN = 10001;
 
-		public static TreeNode[] queue = new TreeNode[MAXN];
+		public  TreeNode[] queue = new TreeNode[MAXN];
 
-		public static int l, r;
+		public  int l, r;
 
 		public String serialize(TreeNode root) {
 			StringBuilder builder = new StringBuilder();

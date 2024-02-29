@@ -53,7 +53,7 @@ public class Code05_PreorderSerializeAndDeserialize {
 		}
 
 		// 当前数组消费到哪了
-		public static int cnt;
+		public int cnt;
 
 		TreeNode g(String[] vals) {
 			String cur = vals[cnt++];
